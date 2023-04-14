@@ -1,4 +1,4 @@
-import cv2_imshow
+# import cv2_imshow
 import cv2
 import joblib
 import numpy as np
@@ -40,6 +40,7 @@ for rect in rects:
                 cv2.FONT_HERSHEY_DUPLEX, 2, (0, 255, 255), 3)
 
 # Display image with output text
-cv2_imshow(im)
+# cv2_imshow(im)
+cv2.imshow(im)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
