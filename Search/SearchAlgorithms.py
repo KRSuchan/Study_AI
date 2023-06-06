@@ -74,7 +74,7 @@ rows_goal = string_to_list(GOAL)
 for number in '12345678 ':
     goal_positions[number] = get_location(rows_goal, number)
 
-# result = uniform_cost(EightPuzzle(INITIAL))
+result = uniform_cost(EightPuzzle(INITIAL))
 # result = greedy(EightPuzzle(INITIAL))
 # result = astar(EightPuzzle(INITIAL))
 
